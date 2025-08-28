@@ -46,7 +46,6 @@ This roadmap outlines the development plan and the roles where contributors can 
 **Tasks**
 - Host packages on GitHub/GitLab or a self-hosted repo.  
 - Build a set of **base packages** (bash, networking tools, text editors).  
-- Add desktop environment options (GNOME, XFCE, KDE, etc.).  
 - Automate builds with CI/CD pipelines.  
 
 **Contributors Needed**
@@ -56,7 +55,28 @@ This roadmap outlines the development plan and the roles where contributors can 
 
 ---
 
-## Phase 4 — Artwork & Identity
+## Phase 4 — Desktop Environments
+
+🎯 Goal: Provide users with the option to install different desktop environments (DEs).  
+
+**Tasks**
+- Package and provide common desktop environments such as:  
+  - GNOME  
+  - XFCE  
+  - KDE Plasma  
+  - LXQt / lightweight options  
+- Ensure compatibility with Yorvo’s package manager (`ypkg`).  
+- Provide default Yorvo theming for consistency.  
+- Test DEs in both VM and hardware installs.  
+
+**Contributors Needed**
+- Packagers with DE experience  
+- Testers on different hardware  
+- Themers for desktop integration  
+
+---
+
+## Phase 5 — Artwork & Identity
 
 🎯 Goal: Give Yorvo a unique, professional look.  
 
@@ -73,7 +93,7 @@ This roadmap outlines the development plan and the roles where contributors can 
 
 ---
 
-## Phase 5 — Installer & ISOs
+## Phase 6 — Installer & ISOs
 
 🎯 Goal: Make Yorvo installable and user-friendly.  
 
@@ -90,7 +110,7 @@ This roadmap outlines the development plan and the roles where contributors can 
 
 ---
 
-## Phase 6 — Community & Expansion
+## Phase 7 — Community & Expansion
 
 🎯 Goal: Grow Yorvo into a sustainable, community-driven project.  
 
